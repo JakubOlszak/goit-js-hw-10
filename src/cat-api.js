@@ -1,31 +1,3 @@
-// export function fetchBreeds(el) {
-//   const searchQuery = el.currentTarget.elements.query.value;
-//   const url = `https://api.thecatapi.com/v1/images/search?breed_ids=${searchQuery}`;
-//   const apiKey =
-//     'live_uOaBgbBDRnjOQaHRhfDtAWgDCyLmbNQWgMDIXGo0dsPCesztzLKMTFMNPUyAVShl';
-//   return fetch(url, {
-//     headers: {
-//       'x-api-key': apiKey,
-//     },
-//   })
-//     .then(res => {
-//       if (!res.ok) {
-//         throw new Error('Error fetching breeds');
-//       } else {
-//       }
-//       return res.json();
-//     })
-//     .then(data => {
-//       return data.map(breed => ({
-//         id: breed.id,
-//         name: breed.name,
-//       }));
-//     });
-// }
-// live_uOaBgbBDRnjOQaHRhfDtAWgDCyLmbNQWgMDIXGo0dsPCesztzLKMTFMNPUyAVShl
-
-// cat-api.js
-
 const API_KEY =
   'live_uOaBgbBDRnjOQaHRhfDtAWgDCyLmbNQWgMDIXGo0dsPCesztzLKMTFMNPUyAVShl';
 
